@@ -1,0 +1,19 @@
+{
+  "name": "player-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w src/styles.scss -o public/"
+  },
+  "type": "module",
+  "author": "Belen Montalvo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sass": "^1.52.1"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
