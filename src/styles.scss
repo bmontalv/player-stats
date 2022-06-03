@@ -1,0 +1,61 @@
+
+.container {
+  width: 20rem;
+  .selector {
+    width: 100%;
+  }
+
+}
+
+.card {
+  background-color: #ec0350;
+  margin-top: 5px;
+
+  .img-container {
+    background-color: white;
+
+  }
+
+  .info-container {
+    padding: 15px;
+  }
+
+  .text {
+    font-family: sans-serif;
+    margin: 0;
+    margin-bottom: 5px;
+    
+    &--title {
+      color: white;
+      font-size: 1.5rem;
+    }
+    &--subtitle {
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    &--stats {
+      color: darkblue;
+    }
+    &--stats {
+      color: darkblue;
+      &__bold {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .stats-list {
+    padding: 0;
+    .stats-line {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      background-color: ghostwhite;
+      border-radius: 5px;
+      margin: 5px 0;
+      padding: 10px;
+    }
+  }
+
+}

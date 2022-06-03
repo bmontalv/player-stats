@@ -1,0 +1,38 @@
+.container {
+  width: 20rem; }
+  .container .selector {
+    width: 100%; }
+
+.card {
+  background-color: #ec0350;
+  margin-top: 5px; }
+  .card .img-container {
+    background-color: white; }
+  .card .info-container {
+    padding: 15px; }
+  .card .text {
+    font-family: sans-serif;
+    margin: 0;
+    margin-bottom: 5px; }
+    .card .text--title {
+      color: white;
+      font-size: 1.5rem; }
+    .card .text--subtitle {
+      color: white;
+      font-size: 0.9rem; }
+    .card .text--stats {
+      color: darkblue; }
+    .card .text--stats {
+      color: darkblue; }
+      .card .text--stats__bold {
+        font-weight: 600; }
+  .card .stats-list {
+    padding: 0; }
+    .card .stats-list .stats-line {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      background-color: ghostwhite;
+      border-radius: 5px;
+      margin: 5px 0;
+      padding: 10px; }

@@ -1,0 +1,348 @@
+// Improve: To do as an endopint or import data
+const playersList = [
+    {
+      "player": {
+        "info": {
+          "position": "D",
+          "shirtNum": 4,
+          "positionInfo": "Centre/Right Central Defender"
+        },
+        "nationalTeam": {
+          "isoCode": "BE",
+          "country": "Belgium",
+          "demonym": "Belgian"
+        },
+        "age": "27 years 139 days",
+        "name": {
+          "first": "Toby",
+          "last": "Alderweireld"
+        },
+        "id": 4916,
+        "currentTeam": {
+          "name": "Tottenham Hotspur",
+          "teamType": "FIRST",
+          "shortName": "Spurs",
+          "id": 21
+        }
+      },
+      "stats": [
+        {
+          "name": "goals",
+          "value": 5
+        },
+        {
+          "name": "losses",
+          "value": 20
+        },
+        {
+          "name": "wins",
+          "value": 48
+        },
+        {
+          "name": "draws",
+          "value": 23
+        },
+        {
+          "name": "fwd_pass",
+          "value": 1533
+        },
+        {
+          "name": "goal_assist",
+          "value": 2
+        },
+        {
+          "name": "appearances",
+          "value": 80
+        },
+        {
+          "name": "mins_played",
+          "value": 6953
+        },
+        {
+          "name": "backward_pass",
+          "value": 308
+        }
+      ]
+    },
+    {
+      "player": {
+        "info": {
+          "position": "M",
+          "shirtNum": 42,
+          "positionInfo": "Centre Defensive Midfielder"
+        },
+        "nationalTeam": {
+          "isoCode": "CI",
+          "country": "Cote D'Ivoire",
+          "demonym": "Ivorian"
+        },
+        "age": "33 years 67 days",
+        "name": {
+          "first": "Yaya",
+          "last": "Touré"
+        },
+        "id": 4148,
+        "currentTeam": {
+          "name": "Manchester City",
+          "teamType": "FIRST",
+          "shortName": "Man City",
+          "id": 11
+        }
+      },
+      "stats": [
+        {
+          "name": "goals",
+          "value": 65
+        },
+        {
+          "name": "losses",
+          "value": 49
+        },
+        {
+          "name": "wins",
+          "value": 149
+        },
+        {
+          "name": "draws",
+          "value": 35
+        },
+        {
+          "name": "fwd_pass",
+          "value": 4491
+        },
+        {
+          "name": "goal_assist",
+          "value": 35
+        },
+        {
+          "name": "appearances",
+          "value": 232
+        },
+        {
+          "name": "mins_played",
+          "value": 18919
+        },
+        {
+          "name": "backward_pass",
+          "value": 1995
+        }
+      ]
+    },
+    {
+      "player": {
+        "info": {
+          "position": "F",
+          "shirtNum": 10,
+          "positionInfo": "Left/Centre/Right Second Striker"
+        },
+        "nationalTeam": {
+          "isoCode": "GB-ENG",
+          "country": "England",
+          "demonym": "English"
+        },
+        "age": "30 years 269 days",
+        "name": {
+          "first": "Wayne",
+          "last": "Rooney"
+        },
+        "id": 2064,
+        "currentTeam": {
+          "name": "Manchester United",
+          "teamType": "FIRST",
+          "shortName": "Man Utd",
+          "id": 12
+        }
+      },
+      "stats": [
+        {
+          "name": "goals",
+          "value": 201
+        },
+        {
+          "name": "losses",
+          "value": 91
+        },
+        {
+          "name": "wins",
+          "value": 280
+        },
+        {
+          "name": "draws",
+          "value": 90
+        },
+        {
+          "name": "fwd_pass",
+          "value": 1795
+        },
+        {
+          "name": "goal_assist",
+          "value": 84
+        },
+        {
+          "name": "appearances",
+          "value": 461
+        },
+        {
+          "name": "mins_played",
+          "value": 27056
+        },
+        {
+          "name": "backward_pass",
+          "value": 1928
+        }
+      ]
+    },
+    {
+      "player": {
+        "info": {
+          "position": "D",
+          "shirtNum": 4,
+          "positionInfo": "Centre Central Defender"
+        },
+        "nationalTeam": {
+          "isoCode": "DE",
+          "country": "Germany",
+          "demonym": "German"
+        },
+        "age": "31 years 294 days",
+        "name": {
+          "first": "Per",
+          "last": "Mertesacker"
+        },
+        "id": 4246,
+        "currentTeam": {
+          "name": "Arsenal",
+          "teamType": "FIRST",
+          "shortName": "Arsenal",
+          "id": 1
+        }
+      },
+      "stats": [
+        {
+          "name": "goals",
+          "value": 8
+        },
+        {
+          "name": "losses",
+          "value": 45
+        },
+        {
+          "name": "wins",
+          "value": 117
+        },
+        {
+          "name": "draws",
+          "value": 41
+        },
+        {
+          "name": "fwd_pass",
+          "value": 4257
+        },
+        {
+          "name": "appearances",
+          "value": 187
+        },
+        {
+          "name": "mins_played",
+          "value": 16531
+        },
+        {
+          "name": "backward_pass",
+          "value": 535
+        }
+      ]
+    },
+    {
+      "player": {
+        "info": {
+          "position": "M",
+          "shirtNum": 26,
+          "positionInfo": "Left/Right Winger"
+        },
+        "nationalTeam": {
+          "isoCode": "DZ",
+          "country": "Algeria",
+          "demonym": "Algerian"
+        },
+        "age": "25 years 149 days",
+        "name": {
+          "first": "Riyad",
+          "last": "Mahrez"
+        },
+        "id": 8983,
+        "currentTeam": {
+          "name": "Leicester City",
+          "teamType": "FIRST",
+          "shortName": "Leicester",
+          "id": 26
+        }
+      },
+      "stats": [
+        {
+          "name": "goals",
+          "value": 22
+        },
+        {
+          "name": "losses",
+          "value": 23
+        },
+        {
+          "name": "wins",
+          "value": 35
+        },
+        {
+          "name": "draws",
+          "value": 21
+        },
+        {
+          "name": "fwd_pass",
+          "value": 687
+        },
+        {
+          "name": "goal_assist",
+          "value": 14
+        },
+        {
+          "name": "appearances",
+          "value": 71
+        },
+        {
+          "name": "mins_played",
+          "value": 5368
+        },
+        {
+          "name": "backward_pass",
+          "value": 323
+        }
+      ]
+    }
+];
+
+const select = document.getElementById('playerSelector');
+
+const main = () => {
+
+  // Set values in selector
+  for(let i = 0; i < playersList.length; i++) {
+    const {first, last} = playersList[i].player.name
+    select.options.add(new Option(`${first} ${last}`,JSON.stringify(playersList[i])))
+  }
+}
+
+const selectorChange = () => {
+  const cardPosition = document.getElementById('card-site');
+  const elementToReplace = cardPosition.firstChild;
+
+  const jsonValue = JSON.parse(select.value)
+  const playerInfo = new PlayerModel(jsonValue).infoToCard()
+
+  const playerCard = document.createElement('player-card')
+  playerCard.setAttribute('id', playerInfo.id)
+  playerCard.setAttribute('name', playerInfo.name)
+  playerCard.setAttribute('position', playerInfo.position)
+  playerCard.setAttribute('stats', JSON.stringify(playerInfo.stats))
+
+  cardPosition.replaceChild(playerCard, elementToReplace);
+}
+
+main();
